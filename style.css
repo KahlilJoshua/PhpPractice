@@ -1,0 +1,53 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: aliceblue;
+}
+
+nav h1{
+    float: left;
+    margin-left: 20px;
+}
+
+ul{
+    
+    
+}
+ul a{
+    padding: 5px;
+    margin: 10px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(255, 139, 247);
+    border-style: solid;
+    border-color: black;
+    border-radius: 30%;
+    float: right;
+    transform: translateY(0px);
+    transition-property: all;
+    transition-duration: 1s;
+}
+ul a:hover{
+    transform: translateY(-4px);
+    transition-property: all;
+    transition-duration: 1s;
+
+    
+}
+p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    font-size: 20px;
+}
+.parent{
+    height: 300px;
+    background-position: center;
+    margin-top: 100px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-image: url(bilder/Site-community-image.webp);
+}
